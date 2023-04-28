@@ -7,7 +7,7 @@ export const TestimonialCard = ({ name, image, text }) => {
                 <span className={`text-sm comfortaa-font`}>{text}</span>
             </div>
             <div className={`flex flex-row items-center justify-between`}>
-                <Image src={image} width={30} height={30} className={`rounded-full bg-neutral-400`} />
+                <Image src={image} width={30} height={30} className={`rounded-full bg-neutral-400`} alt={`The avatar for ${name}`} />
                 <span className={`comfortaa-font text-sm text-neutral-500 font-semibold`}>- {name}</span>
             </div>
         </div>

@@ -12,7 +12,7 @@ export const Footer = () => {
                         <Link href={`/`} className={`text-sm comfortaa-font text-neutral-300 hover:text-neutral-100 hover:scale-105`}>Categories</Link>
                         <Link href={`/`} className={`text-sm comfortaa-font text-neutral-300 hover:text-neutral-100 hover:scale-105`}>Services</Link>
                         <Link href={`/`} className={`text-sm comfortaa-font text-neutral-300 hover:text-neutral-100 hover:scale-105`}>About</Link>
-                        <Link href={`/`} className={`text-sm comfortaa-font text-neutral-300 hover:text-neutral-100 hover:scale-105`}>FAQ's</Link>
+                        <Link href={`/`} className={`text-sm comfortaa-font text-neutral-300 hover:text-neutral-100 hover:scale-105`}>{`FAQ's`}</Link>
 
                     </div>
                     <Link href={`/`} className={`border-[1px] border-neutral-600 bg-transparent text-sm text-white p-2 hover:border-neutral-100 rounded-md text-center`}>
@@ -35,10 +35,10 @@ export const Footer = () => {
                         7328 8th Ave, Brooklyn, NY 11228 <br />
                     </div>
                     <div className={`flex flex-row gap-9`}>
-                        <Image src="/static/images/facebookicon.png" width={25} height={25} className={`invert`} />
-                        <Image src="/static/images/twittericon.png" width={25} height={25} className={`invert`} />
-                        <Image src="/static/images/instagramicon.png" width={25} height={25} className={`invert`} />
-                        <Image src="/static/images/tiktokicon.png" width={25} height={25} className={`invert`} />
+                        <Image src="/static/images/facebookicon.png" width={25} height={25} className={`invert`}  alt={"Facebook Icon"} />
+                        <Image src="/static/images/twittericon.png" width={25} height={25} className={`invert`}  alt={"Twitter Icon"} />
+                        <Image src="/static/images/instagramicon.png" width={25} height={25} className={`invert`} alt={"Instagram Icon"}  />
+                        <Image src="/static/images/tiktokicon.png" width={25} height={25} className={`invert`}  alt={"TikTok Icon"} />
                     </div>
 
                     

@@ -11,6 +11,6 @@ export default function Home() {
 
   return useEffect(() => {
     router.push('/home')
-  }, [])
+  }, [router])
   
 }

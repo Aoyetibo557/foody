@@ -22,17 +22,17 @@ export const HomeBody = () => {
                    </div>
                    <div className={`flex flex-col gap-5`}>
                         <div className={`flex flex-row items-center gap-3`}>
-                            <Image src={`/static/images/checkmark.png`} width={23} height={30} />
+                            <Image src={`/static/images/checkmark.png`} width={23} height={30} alt={"Checkmar Icon/Image"} />
                             <span className={`text-base text-neutral-900 comfortaa-font font-medium`}>Best service that others</span>
                         </div>
 
                         <div className={`flex flex-row items-center gap-3`}>
-                            <Image src={`/static/images/checkmark.png`} width={23} height={30} />
+                            <Image src={`/static/images/checkmark.png`} width={23} height={30} alt={"Checkmar Icon/Image"} />
                             <span className={`text-base text-neutral-900 comfortaa-font font-medium`}>Fresh grocery always</span>
                         </div>
 
                         <div className={`flex flex-row items-center gap-3`}>
-                            <Image src={`/static/images/checkmark.png`} width={23} height={30} />
+                            <Image src={`/static/images/checkmark.png`} width={23} height={30} alt={"Checkmar Icon/Image"} />
                             <span className={`text-base text-neutral-900 comfortaa-font font-medium`}>Userfriendly Website</span>
                         </div>
 
