@@ -1,6 +1,6 @@
 ## Getting Started
 
-This is a website built on NextJs and Reactjs, for an african grocery store. It is an ongoing build, which means updates will be made to the site as time goes on. The site is hosted on Vercel and can be found [here](https://african-grocery-store.vercel.app/).
+This is a website built on NextJs and Reactjs, for an african grocery store. It is an ongoing build, which means updates will be made to the site as time goes on. The site is hosted on Vercel and can be found [here](https://foody-plum.vercel.app/home).
 
 ### Tech Stack
 1. NextJs
