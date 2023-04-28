@@ -16,6 +16,15 @@
   }
 }
 
+.abril-font {
+  font-family: "Abril Fatface", cursive;
+}
+
+.comfortaa-font {
+  font-family: "Comfortaa", cursive;
+}
+
+/* 
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,4 +33,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
