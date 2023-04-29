@@ -7,9 +7,9 @@ import Image from 'next/image'
 const Homepage = () => {
 
     return (
-        <div className={`flex flex-col items-center  gap-10 p-16`}>
+        <div className={`flex flex-col items-center  gap-10 p-16 home_page`}>
             <HomeBanner />
-            <div className={`mt-10 flex justify-center p-4`}>
+            <div className={`mt-10 flex justify-center p-4 homebody_container`}>
                 <HomeBody />
             </div>
         </div>

@@ -9,10 +9,10 @@ import { Testimonials } from '@/components/_home/testimonials';
 export const HomeBody = () => {
 
     return (
-        <div className={`w-4/5 `}>
-            <div className={`flex flex-row items-center gap-10 `}>
+        <div className={`w-4/5 homebody_container`}>
+            <div className={`flex flex-row items-center gap-10 homebody_topcontent `}>
                 {/* top contnet */}
-                <div className={`w-1/2 flex flex-col justify-evenly gap-4`}>
+                <div className={`w-1/2 flex flex-col justify-evenly gap-4 homebody_topcontent-textdiv`}>
                    <div className={`text-3xl font-bold`}>
                      Foody could be your daily service.
                    </div>
@@ -44,13 +44,13 @@ export const HomeBody = () => {
                    </div>
 
                 </div>
-                <div className={`grid grid-cols-2 gap-10`}>
+                <div className={`grid grid-cols-2 gap-10 homebody_textboxes`}>
                     {textboxlist.map((textbox, index) => (
                         <TextBox key={index} icon={textbox.icon} title={textbox.title} subtitle={textbox.subtitle} />
                     ))}
                 </div>
             </div>
-            <div className={`flex flex-row justify-between gap-4 mt-20`}>
+            <div className={`flex flex-row justify-between gap-4 mt-20 homebody_text`}>
                 <div className={`text-3xl abril-font w-3/4`}> We offer people the best and freshest African grocery and items around.</div>
                 <div className={`flex flex-col gap-4 w-3/4`}>
                     <span className={`comfortaa-font`}>
@@ -63,7 +63,10 @@ export const HomeBody = () => {
                 </div>
             </div>
 
-            <div className={`mt-32`}>
+            <div className={`mt-32 text-center `}>
+                <div className={`text-3xl mb-10 comfortaa-font font-semibold`}>
+                    Feedbacks from our community
+                </div>
                <Testimonials /> 
             </div>
          

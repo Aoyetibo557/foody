@@ -4,8 +4,8 @@ import { MailingCard } from '@/components/_home/mailingcard'
 
 export const Footer = () => {
     return (
-        <div className={`flex flex-col bg-neutral-800 p-10 `}>
-            <div className={`flex flex-row h-80 justify-evenly items-center`}>
+        <div className={`flex flex-col bg-neutral-800 p-10 footer`}>
+            <div className={`flex flex-row h-80 justify-evenly items-center footer_container`}>
                 <div className={`flex flex-col text-white gap-5`}>
                     <div className={`text-xl comfortaa-font`} >Navigation Bar</div>
                     <div className={`grid grid-cols-2 gap-10`}>
@@ -20,7 +20,7 @@ export const Footer = () => {
                     </Link>
                 </div>
 
-                <div className={ `w-2/5 flex flex-col items-center gap-5 text-white `}>
+                <div className={ `w-2/5 flex flex-col items-center gap-5 text-white footer_description`}>
                     <div className={`abril-font text-3xl`}>Foody</div>
                     <div className={`comfortaa-font text-sm text-neutral-300`}>
                         We are a local shop that pride ourselves in providing the best quality grocery and goods to our customers. We hope to share our
@@ -29,7 +29,7 @@ export const Footer = () => {
                     </div>
                     <div className={`text-sm comfortaa-font text-neutral-300`}>© 2023 Foody</div>
                 </div>
-                <div className={`flex flex-col items-center text-white  gap-5`}>
+                <div className={`flex flex-col items-center text-white gap-5 footer_contact`}>
                     <div className={`comfortaa-font text-xl`}>Contact Us</div>
                     <div className={`comfortaa-font text-sm text-neutral-300`}>
                         7328 8th Ave, Brooklyn, NY 11228 <br />
@@ -44,11 +44,11 @@ export const Footer = () => {
                     
                 </div>
             </div>
-            <div className={`flex items-center justify-center gap-4`}>
+            <div className={`flex items-center justify-center gap-4 mailingcard_container`}>
                 <MailingCard />
             </div>
 
-            <div className={`flex fex-col gap-3 justify-center text-center text-neutral-500`}>
+            <div className={`flex fex-col gap-3 justify-center text-center text-neutral-500 footer_developer`}>
                 <div>This is a demo website for a local grocery store. This website is built using Next.js, TailwindCSS, and HeadlessUI.</div>                
                 <div>
                     &copy; Developed by <a href="https://anuoluwapo-min-portfolio.vercel.app/home" rel="noreferrer" target="_blank" className={`text-neutral-300 hover:text-neutral-100`}>Anuoluwapo Oyetibo</a>
