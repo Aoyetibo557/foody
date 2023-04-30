@@ -8,32 +8,32 @@ export const menuArray = [
     },
     {
         children: 'About',
-        href: '/about',
+        href: '/',
         type: "text",
     },
     {
         children: 'Categories',
-        href: '/categories',
+        href: '/',
         type: "text",
     },
     {
         children: 'Services',
-        href: '/services',
+        href: '/',
         type: "text",
     },
-    {
-        children: 'Login',
-        href: '/login',
-        type: "text",
-    },
-    {
-        children: 'Signup',
-        href: '/signup',
-        type: "text",
-    },
+    // {
+    //     children: 'Login',
+    //     href: '/login',
+    //     type: "text",
+    // },
+    // {
+    //     children: 'Signup',
+    //     href: '/signup',
+    //     type: "text",
+    // },
      {
         children: "/static/images/cart.png",
-        href: '/shoppingcart',
+        href: '/',
         type: "image",
     },
 ];

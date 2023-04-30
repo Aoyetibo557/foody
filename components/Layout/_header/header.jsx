@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import { MenuList  } from '../_navbar/menulist';
 import Link from 'next/link';
 
-
 export const Header = () => {
 
     return (
@@ -14,9 +13,10 @@ export const Header = () => {
                     </Link>
                     
                 </div>
-                <div>
+                <div className={``}>
                     <MenuList />
                 </div>
+
             </div>
        </div>
     )

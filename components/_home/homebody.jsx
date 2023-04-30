@@ -23,7 +23,7 @@ export const HomeBody = () => {
                    <div className={`flex flex-col gap-5`}>
                         <div className={`flex flex-row items-center gap-3`}>
                             <Image src={`/static/images/checkmark.png`} width={23} height={30} alt={"Checkmar Icon/Image"} />
-                            <span className={`text-base text-neutral-900 comfortaa-font font-medium`}>Best service that others</span>
+                            <span className={`text-base text-neutral-900 comfortaa-font font-medium`}>Best service than others</span>
                         </div>
 
                         <div className={`flex flex-row items-center gap-3`}>
@@ -33,7 +33,7 @@ export const HomeBody = () => {
 
                         <div className={`flex flex-row items-center gap-3`}>
                             <Image src={`/static/images/checkmark.png`} width={23} height={30} alt={"Checkmar Icon/Image"} />
-                            <span className={`text-base text-neutral-900 comfortaa-font font-medium`}>Userfriendly Website</span>
+                            <span className={`text-base text-neutral-900 comfortaa-font font-medium`}>User friendly Website</span>
                         </div>
 
                         <div className={`mt-10`}>

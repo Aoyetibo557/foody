@@ -24,6 +24,10 @@
   font-family: "Comfortaa", cursive;
 }
 
+.hamburger {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
 
   /* homepage */
@@ -31,10 +35,23 @@
     width: 100%;
     padding: 15px;
   }
-
-  .header {
+  /* menu list */
+  .menulist {
     display: none;
   }
+
+  .hamburger {
+    display: block;
+  }
+
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+  }
+
+
  /* banner  Styles */
  .banner__container {
     display: flex;
